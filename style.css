@@ -1,0 +1,59 @@
+#navbar01{
+    background-color:   #6f42c1 !important;
+}
+
+#navbar01 .navbar-brand{
+    font-size: 1.5rem;
+}
+
+#navbar01 a{
+    color: white;
+    align-items: center;
+}
+
+#navbar01 .navbar-toggler{
+    border: 1px solid #EBD6FB;
+    background-color: #EBD6FB;
+}
+
+.d-flex button{
+    color: #EBD6FB;
+    border: 1px solid #EBD6FB;
+}
+
+.d-flex button:hover{
+    background-color: #EBD6FB;
+    border: 1px solid #EBD6FB;
+    color: #6f42c1;
+}
+
+#container-cards{
+    margin-top: 3%;
+}
+
+#container-cards .card h5{
+    color: #6f42c1;
+    font-weight: 7  00;
+}
+
+.col{
+    display: flex;
+    justify-content: center;
+}
+
+#footer01{
+    background-color: #6f42c1 !important;
+    margin-top: 3%;
+}
+
+#leia-mais{
+    border: 1px solid #6f42c1;
+    color: #6f42c1 ;
+    margin: 10px;
+}
+
+#leia-mais:hover{
+    background-color: #6f42c1;
+    color: white;
+    transition: all 0.8s ease;
+}

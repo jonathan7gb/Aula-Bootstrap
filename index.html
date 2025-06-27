@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula Bootstrap</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav class="navbar-expand-lg bg-body-tertiary navbar" id="navbar01">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <a class="navbar-brand" href="#">Boostrap Prática</a>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Início</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Sobre nós</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contato</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Ferramentas</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Search"/>
+              <button class="btn btn-outline-success" type="submit">Pesquisar</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+      <div class="container text-center" id="container-cards">
+        <div class="row align-items-stretch gy-4" id="row-cards">
+          <div class="col">
+            <div class="card shadow bg-body-tertiary rounded" style="width: 18rem;">
+                <img src="./Imagens//grid.jpg" class="card-img-top" alt="Display grid">
+                <div class="card-body">
+                    <h5>GRID</h5>
+                  <p class="card-text">Permite construir layouts mais organizados, organizar os itens de acordo com seu desejo. Além de alinhar os itens na página.
+                </p>
+                </div>
+                <button type="button" class="btn btn-outline-danger" id="leia-mais">Leia mais!</button>
+              </div>
+          </div>
+          <div class="col">
+            <div class="card shadow bg-body-tertiary rounded" style="width: 18rem;">
+                <img src="./Imagens/accordion.jpg" class="card-img-top" alt="Accordiion">
+                <div class="card-body">
+                    <h5>ACCORDION</h5>
+                  <p class="card-text">Serve para expandir ou recolher itens de um layout, criar caixas que aparecem através de interações do usuário</p>
+                </div>
+                <button type="button" class="btn btn-outline-danger" id="leia-mais">Leia mais!</button>
+              </div>
+          </div>
+          <div class="col">
+            <div class="card shadow bg-body-tertiary rounded" style="width: 18rem;">
+                <img src="./Imagens/border.jpg" class="card-img-top" alt="Border">
+                <div class="card-body">
+                    <h5>BORDER</h5>
+                  <p class="card-text"> Permite colocar borda nos itens que desejamos</p>
+                </div>
+                <button type="button" class="btn btn-outline-danger" id="leia-mais">Leia mais!</button>
+              </div>
+          </div>
+          <div class="col">
+            <div class="card shadow bg-body-tertiary rounded" style="width: 18rem;">
+                <img src="./Imagens/button.jpg" class="card-img-top" alt="Button">
+                <div class="card-body">
+                    <h5>BUTTON</h5>
+                  <p class="card-text">Serve para muitas funções, algumas delas são, envio de formulários, direcionamento de páginas, etc</p>
+                </div>
+                <button type="button" class="btn btn-outline-danger" id="leia-mais">Leia mais!</button>    
+              </div>
+          </div>
+        </div>
+      </div>
+
+      <footer class="bg-dark text-white text-center py-4" id="footer01">
+        <p class="mb-0">&copy; 2025 Jonathan Luis Uber. Todos os direitos reservados.</p>
+      </footer>
+</body>
+</html>
