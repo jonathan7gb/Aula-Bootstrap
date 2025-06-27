@@ -11,11 +11,14 @@
     align-items: center;
 }
 
+#navbar01 ul li a:hover{
+    text-decoration: underline;
+}
+
 #navbar01 .navbar-toggler{
     border: 1px solid #EBD6FB;
     background-color: #EBD6FB;
 }
-
 .d-flex button{
     color: #EBD6FB;
     border: 1px solid #EBD6FB;
